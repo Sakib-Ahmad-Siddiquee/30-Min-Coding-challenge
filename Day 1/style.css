@@ -1,0 +1,25 @@
+.btn-color{
+    background-color: #ee5684;
+}
+.body-color{
+    background-color: #6d9ac4;
+}
+.alt-label{
+    position: relative;
+}
+.alt-label::after{
+    position: absolute;
+  content: '';
+  width: 6px;
+  background-color: blue;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -30px;
+}
+.google-red{
+    fill: #d41818;
+}
+.fb-blue{
+    fill:#4963a2;
+}
